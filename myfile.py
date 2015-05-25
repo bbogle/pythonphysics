@@ -13,5 +13,5 @@ my_file.seek(0)                         # 파일 처음으로 돌아가기
 while 1:
     line = my_file.readline()
     if not line: break
-    print str(i) + " === " + line,      # 한줄씩 값 출력
+    print str(i) + " === " + line,      # 한줄씩 값 출력 
     i = i + 1
